@@ -8,4 +8,9 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+// vite.config.js
+    build: {
+        outDir: 'dist',
+   },
+};
 });
